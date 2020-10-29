@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE01BE5D254AF48F00057B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01BE5C254AF48F00057B4B /* AppDelegate.swift */; };
+		CE01BE5F254AF48F00057B4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01BE5E254AF48F00057B4B /* SceneDelegate.swift */; };
+		CE01BE61254AF48F00057B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01BE60254AF48F00057B4B /* ViewController.swift */; };
+		CE01BE64254AF48F00057B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE01BE62254AF48F00057B4B /* Main.storyboard */; };
+		CE01BE66254AF49000057B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE01BE65254AF49000057B4B /* Assets.xcassets */; };
+		CE01BE69254AF49000057B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE01BE67254AF49000057B4B /* LaunchScreen.storyboard */; };
+		E6DDF4DA3183D5EA6C0EF14D /* Pods_DeveemTestManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A439EB08F1C420B587DDC8C0 /* Pods_DeveemTestManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61260E6494B41B212B62017C /* Pods-DeveemTestManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeveemTestManager.release.xcconfig"; path = "Target Support Files/Pods-DeveemTestManager/Pods-DeveemTestManager.release.xcconfig"; sourceTree = "<group>"; };
+		9A4CDEE3F16520AE8918ECEC /* Pods-DeveemTestManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeveemTestManager.debug.xcconfig"; path = "Target Support Files/Pods-DeveemTestManager/Pods-DeveemTestManager.debug.xcconfig"; sourceTree = "<group>"; };
+		A439EB08F1C420B587DDC8C0 /* Pods_DeveemTestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeveemTestManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE01BE59254AF48F00057B4B /* DeveemTestManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeveemTestManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE01BE5C254AF48F00057B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE01BE5E254AF48F00057B4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE01BE60254AF48F00057B4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE01BE63254AF48F00057B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE01BE65254AF49000057B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE01BE68254AF49000057B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE01BE6A254AF49000057B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE01BE56254AF48F00057B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DDF4DA3183D5EA6C0EF14D /* Pods_DeveemTestManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A541A6D1394E69A72F19DB3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A439EB08F1C420B587DDC8C0 /* Pods_DeveemTestManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE01BE50254AF48F00057B4B = {
+			isa = PBXGroup;
+			children = (
+				CE01BE5B254AF48F00057B4B /* DeveemTestManager */,
+				CE01BE5A254AF48F00057B4B /* Products */,
+				E654BC92B0D3FE23F6E70A9F /* Pods */,
+				A541A6D1394E69A72F19DB3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE01BE5A254AF48F00057B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE01BE59254AF48F00057B4B /* DeveemTestManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE01BE5B254AF48F00057B4B /* DeveemTestManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE01BE76254AF75600057B4B /* Views */,
+				CE01BE5C254AF48F00057B4B /* AppDelegate.swift */,
+				CE01BE5E254AF48F00057B4B /* SceneDelegate.swift */,
+				CE01BE60254AF48F00057B4B /* ViewController.swift */,
+				CE01BE65254AF49000057B4B /* Assets.xcassets */,
+				CE01BE67254AF49000057B4B /* LaunchScreen.storyboard */,
+				CE01BE6A254AF49000057B4B /* Info.plist */,
+			);
+			path = DeveemTestManager;
+			sourceTree = "<group>";
+		};
+		CE01BE76254AF75600057B4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE01BE62254AF48F00057B4B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E654BC92B0D3FE23F6E70A9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A4CDEE3F16520AE8918ECEC /* Pods-DeveemTestManager.debug.xcconfig */,
+				61260E6494B41B212B62017C /* Pods-DeveemTestManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE01BE58254AF48F00057B4B /* DeveemTestManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE01BE6D254AF49000057B4B /* Build configuration list for PBXNativeTarget "DeveemTestManager" */;
+			buildPhases = (
+				A402741CA25F091383CAEDFD /* [CP] Check Pods Manifest.lock */,
+				CE01BE55254AF48F00057B4B /* Sources */,
+				CE01BE56254AF48F00057B4B /* Frameworks */,
+				CE01BE57254AF48F00057B4B /* Resources */,
+				3C5215D6E544E14D4833CC3B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeveemTestManager;
+			productName = DeveemTestManager;
+			productReference = CE01BE59254AF48F00057B4B /* DeveemTestManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE01BE51254AF48F00057B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CE01BE58254AF48F00057B4B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = CE01BE54254AF48F00057B4B /* Build configuration list for PBXProject "DeveemTestManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE01BE50254AF48F00057B4B;
+			productRefGroup = CE01BE5A254AF48F00057B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE01BE58254AF48F00057B4B /* DeveemTestManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE01BE57254AF48F00057B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE01BE69254AF49000057B4B /* LaunchScreen.storyboard in Resources */,
+				CE01BE66254AF49000057B4B /* Assets.xcassets in Resources */,
+				CE01BE64254AF48F00057B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C5215D6E544E14D4833CC3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeveemTestManager/Pods-DeveemTestManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeveemTestManager/Pods-DeveemTestManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeveemTestManager/Pods-DeveemTestManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A402741CA25F091383CAEDFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeveemTestManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE01BE55254AF48F00057B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE01BE61254AF48F00057B4B /* ViewController.swift in Sources */,
+				CE01BE5D254AF48F00057B4B /* AppDelegate.swift in Sources */,
+				CE01BE5F254AF48F00057B4B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE01BE62254AF48F00057B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE01BE63254AF48F00057B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE01BE67254AF49000057B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE01BE68254AF49000057B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE01BE6B254AF49000057B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE01BE6C254AF49000057B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE01BE6E254AF49000057B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4CDEE3F16520AE8918ECEC /* Pods-DeveemTestManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFP5J5PM25;
+				INFOPLIST_FILE = DeveemTestManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidanaaimanbetova.DeveemTestManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE01BE6F254AF49000057B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61260E6494B41B212B62017C /* Pods-DeveemTestManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFP5J5PM25;
+				INFOPLIST_FILE = DeveemTestManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidanaaimanbetova.DeveemTestManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE01BE54254AF48F00057B4B /* Build configuration list for PBXProject "DeveemTestManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE01BE6B254AF49000057B4B /* Debug */,
+				CE01BE6C254AF49000057B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE01BE6D254AF49000057B4B /* Build configuration list for PBXNativeTarget "DeveemTestManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE01BE6E254AF49000057B4B /* Debug */,
+				CE01BE6F254AF49000057B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE01BE51254AF48F00057B4B /* Project object */;
+}
