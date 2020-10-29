@@ -6,6 +6,6 @@ target 'DeveemTestManager' do
   use_frameworks!
 
   # Pods for DeveemTestManager
-	pod 'Alamofire'
+	pod 'Alamofire', '~> 4.9.1'
 	pod 'IQKeyboardManagerSwift'
 end
